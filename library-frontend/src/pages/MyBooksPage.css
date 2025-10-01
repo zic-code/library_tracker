@@ -1,0 +1,38 @@
+.book-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.book-card {
+  background-color: rgba(255, 255, 255, 0.542);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 180px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  color:#333
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.book-info h3 {
+  font-size: 1rem;
+  margin: 0.5rem 0 0.2rem;
+}
+
+.book-info p {
+  font-size: 0.85rem;
+  color: #a5a5a5;
+  margin: 0;
+}
